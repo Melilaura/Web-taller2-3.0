@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShopCart</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald&family=Poppins&display=swap" rel="stylesheet">
+
+
+    <!--<link rel="stylesheet" href="../css/style.css">-->
+    <link rel="stylesheet" href="/admin.920a67b1.css">
+
+    <link rel="stylesheet" href="/shopCart.04145b05.css">
+</head>
+
+<body>
+
+    <header>
+        <nav class="header nav flex">
+            <div class="categories div flex align-items-center">
+
+                <div class="categories div flex align-items-center">
+
+                    <ul class="menues flex">
+
+                        <li class="menu__item">
+                            <a href="/store.html">
+                                <button>MUJER</button>
+                            </a>
+                            
+                            <ul class="menu__expanded">
+                                <li>
+                                    <a href="#">BOTAS</a>
+                                </li>
+                                <li>
+                                    <a href="#">ZAPATOS</a>
+                                </li>
+                                <li>
+                                    <a href="#">SANDALIAS</a>
+                                </li>
+                                <li>
+                                    <a href="#">ORIGINALS</a>
+                                </li>
+                                <li>
+                                    <a href="#">PLATAFORMAS</a>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li class="menu__item">
+                            <a href="/store.html">
+                                <button>HOMBRE</button>
+                            </a>
+                            
+                            <ul class="menu__expanded">
+                                <li>
+                                    <a href="#">BOTAS</a>
+                                </li>
+                                <li>
+                                    <a href="#">ZAPATOS</a>
+                                </li>
+                                <li>
+                                    <a href="#">SANDALIAS</a>
+                                </li>
+                                <li>
+                                    <a href="#">ORIGINALS</a>
+                                </li>
+                                <li>
+                                    <a href="#">PLATAFORMAS</a>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li class="menu__item">
+                            <a href="/store.html">
+                            <button>NIÑOS</button>
+                            </a>
+                        </li>
+
+
+                        <li class="menu__item">
+                            <a href="/store.html">
+                            <button>ACCESORIOS</button>
+                            </a>
+                        </li>
+
+
+                </ul></div>
+
+                <div class="logo">
+                    <a href="/landing.html">
+                        <img alt="DrMartens" src="/Logo.f41a154d.png">
+                    </a>
+                </div>
+                <div class="user div">
+                    <ul class="user__button flex align-items-center">
+
+
+                        <li class="banner__item banner__item--location">
+                            <button>ENCUENTRA UNA TIENDA</button>
+                        </li>
+                        <li class="banner__item" id="in">
+                            <a href="/login.html">
+                                <button>INICIAR SESIÓN/ REGISTRARME</button>
+                            </a>
+                            
+                        </li>
+
+                        <li class="banner__item">
+                            <a href="/store.html">
+                                <img src="/recientesIcono.659ead2d.png" alt="recienteIcon">
+                            </a>
+                        </li>
+
+                        <li class="banner__item">
+                            <a href="/shopCart.html">
+                                <img alt="carritoIcon" src="/carritoIcono.bbf8be4b.png">
+                            </a>
+                        </li>
+
+                    </ul>
+                    <hr>
+                </div>
+
+        </div></nav>
+    </header>
+
+    <div class="paper">
+
+        <div class="paper_products">
+            <h1>TU CARRITO</h1>
+            <ul class="products" id="cart">
+                <li class="product">
+                    <img class="shop__img" src="/Ref1.4b139549.png" alt="">
+                    <div class="shop__info">
+                        <h3 class="shop__product">101 BOTAS DE CUERO</h3>
+                        <h4 class="shop__price">$649.000</h4>
+                        <button class="button__delete">Eliminar</button>
+                    </div>
+                </li>
+                
+            </ul>
+
+            <div class="check" id="total">
+                <h3>TOTAL</h3>
+                <h4 class="shop__price" id="totalPrice">$649.000</h4>
+
+            </div>
+
+
+
+        </div>
+
+        <div class="paper_list">
+            <h1>PAGAR</h1>
+            
+            <form class="checkout__Form" id="checkout__Form">
+                            <h2>Información personal</h2>
+                            
+                            <input type="text" id="nombre" class="placeholder" placeholder="Nombre">
+                
+                            <input type="text" id="direccion" class="placeholder" placeholder="Dirección">
+                
+                            <input type="text" id="ciudad" class="placeholder" placeholder="Ciudad">
+                
+                            <input type="text" id="cellphone" class="placeholder" placeholder="Número telefonico">
+        
+        
+                        <h2>Información de pago</h2>
+                            <input type="number" id="card" class="placeholder" placeholder="Número de tarjeta">
+       
+                                <div class="checkout__Form">
+
+                                    <input type="date" id="date" class="placeholder" placeholder="Fecha de expiración">
+                                    <input type="text" id="ccv" class="placeholder" placeholder="CCV">
+        
+                                </div>
+                
+                            <input type="submit" value="PAGAR" class="form__button">
+        
+                        </form>
+                    </div>
+            </div>
+
+        
+
+
+    
+
+
+
+
+    <div class="newLetter">
+
+        <div class="newsLetter__info">
+            <h1>SUSCRIBETE A NUESTRO NEWSLETTER</h1>
+            <form action="" class="form_newsletter">
+
+                <input class="placeholder" type="text" placeholder="Escribe tu nombre">
+                <input class="placeholder" type="text" placeholder="Escribe tu correo">
+                <input class="form__button" type="submit" value="SUSCRÍBETE">
+            </form>
+        </div>
+    </div>
+
+    <footer>
+
+        <div class="footer__info">
+            <div class="footer__menu">
+                <a href="#"> INICIAR SESION/ REGISTRARME</a>
+                <a href="#">ENCUENTRA UNA TIENDA</a>
+            </div>
+
+            <div class="footer__knowus">
+                <h1>CONOCENOS</h1>
+                <a href="#">HISTORIA</a>
+                <a href="#">ENTREGA</a>
+                <a href="#">CONTACTOS DE PRENSA</a>
+                <a href="#">ENCUENTRA UNA TIENDA</a>
+                <a href="#">CONTACTO</a>
+            </div>
+
+            <div class="footer__information">
+                <h1>INFORMACIÓN ÚTIL</h1>
+                <a href="#">PREGUNTAS FRECUENTES</a>
+                <a href="#">ENTREGA</a>
+                <a href="#">DEVOLUCIONES</a>
+                <a href="#">GUÍA DE TALLAS</a>
+                <a href="#">MAPA DEL SITIO</a>
+            </div>
+
+            <div class="footer__corporation">
+                <h1>INFORMACIÓN CORPORATIVA Y LEGAL</h1>
+                <a href="#">INVERSIONES</a>
+                <a href="#">SOSTENIBILIDAD</a>
+                <a href="#">LEY DE LA ESCLAVITUD MODERNA</a>
+                <a href="#">RESPONSABILIDAD SOCIAL</a>
+                <a href="#">TÉRMINOS Y CONDICIONES</a>
+                <a href="#">POLÍTICA DE PRIVACIDAD</a>
+                <a href="#">POLÍTICA DE COOKIES</a>
+            </div>
+
+        </div>
+
+    </footer>
+
+    <script src="/shopCart.f2d1430e.js" defer=""></script>
+
+</body>
+
+</html>

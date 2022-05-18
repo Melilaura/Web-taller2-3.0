@@ -1,0 +1,298 @@
+* {
+  box-sizing: border-box;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+html, body, button {
+  background-color: #000;
+  font-family: Oswald;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+.flex {
+  display: flex;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+header {
+  color: #fff;
+  background-color: #000;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 10px 5px;
+  display: flex;
+}
+
+header .nav {
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .nav .logo {
+  color: #fff;
+  margin-right: 20px;
+  font-size: 20px;
+}
+
+header .nav .logo img {
+  height: 50px;
+}
+
+header .nav .menues .menu__expanded {
+  display: none;
+}
+
+header .nav .menues .menu__item {
+  margin: 0 10px;
+  padding: 5px 10px;
+  position: relative;
+}
+
+header .nav .menues .menu__item a {
+  color: #fff;
+  text-align: left;
+  cursor: pointer;
+  font-size: .65em;
+}
+
+header .nav .menues .menu__item button {
+  color: #fff;
+  cursor: pointer;
+  background-color: #0000;
+  border: none;
+  font-size: .65em;
+}
+
+header .nav .menues .menu__item:hover > .menu__expanded {
+  display: block;
+}
+
+header .nav .menues .menu__expanded {
+  z-index: 1;
+  text-align: left;
+  width: 250px;
+  background-color: #000;
+  padding: 20px;
+  font-size: 1.5em;
+  position: absolute;
+}
+
+header .nav .banner__item img {
+  padding: 0 10px;
+}
+
+header .nav .banner__item button {
+  color: #fff;
+  background-color: #0000;
+  border: none;
+}
+
+header .nav .banner__item button, header .nav .banner__item a {
+  cursor: pointer;
+  padding: 10px;
+  font-size: .65em;
+}
+
+.userIn {
+  justify-content: center;
+  padding: 60px 90px;
+  display: flex;
+}
+
+.form__login {
+  -webkit-box-pack: left;
+  -ms-flex-pack: left;
+  justify-content: left;
+  -webkit-box-align: left;
+  -ms-flex-align: left;
+  align-items: left;
+  flex-flow: column wrap;
+  display: flex;
+}
+
+.form__login .placeholder {
+  text-align: left;
+  width: 300px;
+  height: 40px;
+  background-color: #fff;
+  border: none;
+  margin: 10px;
+  padding: 8px 10px;
+  font-family: Poppins;
+  font-size: .8em;
+}
+
+.form__login .form__button {
+  text-align: center;
+  height: 40px;
+  width: 100px;
+  cursor: pointer;
+  background-color: #ffe512;
+  border: none;
+  font-family: Oswald;
+  font-size: .8em;
+}
+
+.form__login h1 {
+  color: #fff;
+  font-size: 2em;
+}
+
+.form__login h3 {
+  color: #fff;
+  text-align: left;
+  font-family: Poppins;
+  font-size: 1em;
+}
+
+.form__login p {
+  color: #fff;
+  font-size: 1em;
+}
+
+.form__signin {
+  -webkit-box-pack: left;
+  -ms-flex-pack: left;
+  justify-content: left;
+  -webkit-box-align: left;
+  -ms-flex-align: left;
+  align-items: left;
+  flex-flow: column wrap;
+  margin: 0 70px;
+  display: flex;
+}
+
+.form__signin .placeholder {
+  text-align: left;
+  width: 300px;
+  height: 40px;
+  background-color: #fff;
+  border: none;
+  margin: 10px;
+  padding: 8px 10px;
+  font-family: Poppins;
+  font-size: .8em;
+}
+
+.form__signin .form__button {
+  text-align: center;
+  height: 40px;
+  width: 100px;
+  cursor: pointer;
+  background-color: #ffe512;
+  border: none;
+  font-family: Oswald;
+  font-size: .8em;
+}
+
+.form__signin h1 {
+  color: #fff;
+  padding: 60px;
+  font-size: 2em;
+}
+
+.form__signin h3 {
+  color: #fff;
+  font-size: 1em;
+}
+
+.form__signin p {
+  color: #fff;
+  padding: 60px;
+  font-size: 1em;
+}
+
+.form_newsletter {
+  flex-direction: row;
+  display: flex;
+}
+
+.newLetter {
+  background-color: #1b1f26;
+  justify-content: center;
+  padding: 60px 90px;
+  display: flex;
+}
+
+.newsLetter__info h1 {
+  color: #fff;
+  font-size: 20px;
+}
+
+.newsLetter__info .form_newsletter .placeholder {
+  text-align: left;
+  width: 300px;
+  height: 40px;
+  background-color: #fff;
+  border: none;
+  margin: 10px;
+  padding: 8px 10px;
+  font-family: Poppins;
+  font-size: .8em;
+}
+
+.newsLetter__info .form_newsletter .form__button {
+  text-align: center;
+  height: 40px;
+  width: 100px;
+  cursor: pointer;
+  background-color: #ffe512;
+  border: none;
+  font-family: Oswald;
+  font-size: .8em;
+}
+
+.footer__info {
+  background-color: #000;
+  flex-flow: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 100px 100px 50px;
+  display: flex;
+}
+
+.footer__info h1 {
+  color: #fff;
+  margin-bottom: 20px;
+  font-size: 15px;
+}
+
+.footer__info a {
+  color: #4f4d4a;
+  padding: 5px 0;
+}
+
+.footer__info .footer__menu {
+  color: #fff;
+  width: 150px;
+  margin: 20px;
+  font-family: Oswald;
+  font-size: 15px;
+}
+
+.footer__info .footer__knowus, .footer__info .footer__information, .footer__info .footer__corporation {
+  color: #4f4d4a;
+  width: 150px;
+  flex-flow: column wrap;
+  align-items: flex-start;
+  margin: 20px;
+  font-family: Poppins;
+  font-size: 10px;
+  display: flex;
+}
+
+/*# sourceMappingURL=login.19c6eaf2.css.map */

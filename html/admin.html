@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Administrador</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald&family=Poppins&display=swap" rel="stylesheet">
+
+    <!--<link rel="stylesheet" href="../css/style.css">-->
+    <link rel="stylesheet" href="../css/landing/mediaqueries.css">
+
+    <link rel="stylesheet" href="../css/admin.scss">
+</head>
+
+<body>
+    <header>
+        <nav class="header nav flex">
+            <div class="categories div flex align-items-center">
+
+                
+
+                <div class="logo">
+                    <a href="./landing.html">
+                        <img alt="DrMartens" src="../images/Logo.png">
+                    </a>
+                </div>
+         
+            </div>
+        </nav>
+    </header>
+    <div class="newProduct">
+
+
+        <form action="" class="form__newProduct" id="productForm">
+
+            <h1>CREAR PRODUCTO</h1>
+
+            <h3>Producto</h3>
+            <input class="placeholder" type="text" name="nombreProducto">
+
+            <h3>Descripción</h3>
+            <textarea class="description__product" name="descripcion"></textarea>
+
+            <h3>Precio</h3>
+            <input class="placeholder" type="number" name="precio"></input>
+
+            <h3>Categoria</h3>
+            <select class="select" name="categoria">
+                <option value="mujer"> MUJER</option>
+                <option value="hombre">HOMBRE </option>
+                <option value="niños"> NIÑOS</option>
+                <option value="originals"> ORIGINALS</option>
+                <option value="accesorios"> ACCESORIOS</option>
+            </select>
+
+            <h3>Imagenes</h3>
+            <input class="form__up" type="file" name="images" multiple accept=".png, .jpg, .jpeg">
+
+            <input class="form__button" type="submit" value="CREAR">
+        </form>
+
+
+
+
+
+    </div>
+
+
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+    <script src="../src/scripts/admin.js" type="module"></script>
+</body>
+
+</html>

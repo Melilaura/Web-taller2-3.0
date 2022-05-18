@@ -1,0 +1,40 @@
+$general__font: 'Oswald';
+$second__font:'Poppins';
+$general__background: black;
+$second__background: rgb(27, 31, 38);
+$general__buttonColor: rgb(255, 229, 18);
+$general__text: black;
+$general__secondText: white;
+@mixin line {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.shop {
+    .shop__list {
+        @include line();
+        .shop__item {
+            color: #FFF;
+            align-items: center;
+            padding: 10px 25px 80px 0px;
+            .shop__img {
+                height: 170px;
+                cursor: pointer;
+            }
+            &:hover {
+                >.shop__img {
+                    transform: scale(1.2);
+                }
+            }
+            .shop__product {
+                font-size: 1em;
+            }
+            .shop__price {
+                font-family: $second__font;
+            }
+        }
+    }
+}

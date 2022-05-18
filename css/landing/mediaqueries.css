@@ -1,0 +1,187 @@
+@media all and (max-width: 1074px) {
+    .logo img {
+        padding: 5px;
+    }
+    .menu__item {
+        margin: 2px;
+    }
+    .menu__item button,
+    .menu__item a {
+        font-size: 0.2em;
+    }
+    .menu__item a {
+        color: rgb(32, 32, 32);
+        text-align: left;
+        padding: 5px;
+    }
+    .banner__item img {
+        height: 15px;
+    }
+    .banner__item button {
+        padding: 1px;
+        font-size: 0.1em;
+    }
+    .banner__item--location {
+        display: none;
+    }
+    .user div .menu__item {
+        padding: 5px;
+    }
+    .banner__title {
+        font-size: 2.5em;
+        top: 150px;
+        left: 0px;
+        padding: 0px 10px 0px 50px;
+    }
+    .banner a {
+        padding: 5px;
+        top: 220px;
+        left: 400px;
+        font-size: 0.5em;
+    }
+    .shop__item {
+        padding: 10px 25px 0px 0px;
+    }
+    .shop__list {
+        padding: 0px 0px 100px 0px;
+    }
+    .carrousel a {
+        color: white;
+        font-size: 1em;
+    }
+    .carrousel__imagenes img {
+        width: 100%;
+    }
+    .form_newsletter {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    .placeholder {
+        width: 200px;
+    }
+    footer__info {
+        padding: 50px 100px;
+    }
+    .footer__info h1 {
+        font-size: 5px;
+    }
+    .footer__info a {
+        color: rgb(79, 77, 74);
+        padding: 5px 0px;
+    }
+    .footer__menu {
+        font-size: 10px;
+    }
+    .footer__knowus {
+        font-size: 5px;
+    }
+    .footer__information {
+        font-size: 5px;
+    }
+    .footer__corporation {
+        font-size: 5px;
+    }
+}
+
+@media all and (max-width: 844px) {
+    .logo {
+        align-items: center;
+        justify-content: center;
+    }
+    .logo img {
+        padding: 1%;
+        width: 50px;
+        height: 30px;
+    }
+    .menu__item {
+        display: none;
+    }
+    .user__button {
+        display: none;
+    }
+    .banner__title {
+        font-size: 1.5em;
+        top: 50px;
+        padding: 0px 10px 0px 30px;
+    }
+    .banner a {
+        padding: 1px;
+        top: 90px;
+        left: 250px;
+        font-size: 0.1em;
+    }
+    .promo h1 {
+        text-align: center;
+        font-size: 0.1em;
+    }
+    .shop__img {
+        height: 100px;
+    }
+    .shop__item {
+        align-items: center;
+        padding: 25px;
+    }
+    .shop__list {
+        padding: 10PX;
+    }
+    .shop__product {
+        font-size: 0.1em;
+    }
+    .thing {
+        align-items: flex-end;
+        justify-items: center;
+        padding: 0%;
+        margin: 10px;
+    }
+    .thing h1 {
+        font-size: 1em;
+        text-align: center;
+    }
+    .carrousel a {
+        color: white;
+        font-size: 0.1em;
+    }
+    .carrousel__imagenes img {
+        width: 120%;
+    }
+    .form_newsletter {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin: 10px 0px;
+    }
+    .newsLetter__info h1 {
+        font-size: 0.9em;
+    }
+    .placeholder {
+        width: 200px;
+    }
+    .form__button {
+        margin: 10px 0px;
+    }
+    .footer__info {
+        padding: 50px 100px 50px;
+    }
+    .footer__info h1 {
+        font-size: 5px;
+    }
+    .footer__info a {
+        color: rgb(79, 77, 74);
+        padding: 5px 0px;
+    }
+    .footer__menu {
+        font-size: 5px;
+    }
+    .footer__knowus {
+        font-size: 2px;
+    }
+    .footer__information {
+        font-size: 2px;
+    }
+    .footer__corporation {
+        font-size: 2px;
+    }
+}
